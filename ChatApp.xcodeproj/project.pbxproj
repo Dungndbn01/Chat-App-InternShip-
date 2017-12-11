@@ -187,6 +187,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		166C84961FDE976D00FBCAEB /* Controller2 */ = {
+			isa = PBXGroup;
+			children = (
+				7C376FAA1FC66CA60089D628 /* HomeController.swift */,
+				7C376FAB1FC66CA60089D628 /* HomeDataSourceController.swift */,
+				7C6F89421FC1474200932AFE /* AudioRecordedController.swift */,
+				7C9FECE91F9CEF39008327FB /* LoginController.swift */,
+				7C9FECBB1F9CD01F008327FB /* MessageController.swift */,
+				7C6042DB1F9F9DAE001DDACF /* FriendListController.swift */,
+				7CBE04641F9DADE000D2555B /* PageViewController.swift */,
+				7C71EFB21FA17D580002413D /* ChatLogController.swift */,
+				7C8AC69B1FB04823003C4336 /* PhotoLibraryController.swift */,
+				7C3EAE281FB1403E00D4DF0A /* YoutubeViewController.swift */,
+				7C8B313C1FB2A28000F5E4F3 /* SettingLauncherController.swift */,
+				7CB874761FB40359006EA27A /* TabBarController.swift */,
+				7CC1C35F1FB5487100314712 /* UserProfileController.swift */,
+			);
+			name = Controller2;
+			sourceTree = "<group>";
+		};
 		6DA5B7494FF8201F701DAC56 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -266,6 +286,7 @@
 		7C9FECB81F9CD01E008327FB /* ChatApp */ = {
 			isa = PBXGroup;
 			children = (
+				166C84961FDE976D00FBCAEB /* Controller2 */,
 				7C7BAFE51FAAD7CD0026D986 /* ChatApp.entitlements */,
 				7C465B2C1FA2CC2E00F44F23 /* View */,
 				7C3ADF441FA0F4D70084DB4C /* Helper */,
@@ -302,19 +323,6 @@
 		7C9FECE81F9CEF17008327FB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				7C376FAA1FC66CA60089D628 /* HomeController.swift */,
-				7C376FAB1FC66CA60089D628 /* HomeDataSourceController.swift */,
-				7C6F89421FC1474200932AFE /* AudioRecordedController.swift */,
-				7C9FECE91F9CEF39008327FB /* LoginController.swift */,
-				7C9FECBB1F9CD01F008327FB /* MessageController.swift */,
-				7C6042DB1F9F9DAE001DDACF /* FriendListController.swift */,
-				7CBE04641F9DADE000D2555B /* PageViewController.swift */,
-				7C71EFB21FA17D580002413D /* ChatLogController.swift */,
-				7C8AC69B1FB04823003C4336 /* PhotoLibraryController.swift */,
-				7C3EAE281FB1403E00D4DF0A /* YoutubeViewController.swift */,
-				7C8B313C1FB2A28000F5E4F3 /* SettingLauncherController.swift */,
-				7CB874761FB40359006EA27A /* TabBarController.swift */,
-				7CC1C35F1FB5487100314712 /* UserProfileController.swift */,
 				7C4170681FB6927B0043D39E /* TabBarItem2Controller.swift */,
 				7C35AF861FB9402200809C18 /* GoogleMapViewController.swift */,
 				178976641FB9942C0069E4E3 /* PhotoLocationController.swift */,
